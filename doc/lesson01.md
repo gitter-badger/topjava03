@@ -26,12 +26,13 @@
 - <a href="http://maven.apache.org/">Home Page</a>
 - Среда сборки проектов <a href="http://www.apache-maven.ru/" target="_blank">Maven</a>.
 - <a href="http://search.maven.org/#browse">The Central Repository</a>
-- <a href="http://habrahabr.ru/post/111408/">Maven archetype</a>.
+- <a href="http://habrahabr.ru/post/111408/">Maven archetype</a>. Создание проекта на основе maven-archetype-webapp. Сборка проекта.
+- Настройка пропертей Maven: кодировка, java version, зависимости, maven-compiler-plugin
 - <a href="http://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html">Build Lifecycle</a>.
 - <a href="http://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html">Dependency Mechanism</a>
 - <a href="http://www.ibm.com/developerworks/ru/library/j-5things13/">Зависимости, профили</a>
-- <a href="http://maven.apache.org/guides/mini/guide-multiple-modules.html">The Reactor</a>
-- <a href="http://habrahabr.ru/blogs/java/106717/" target="_blank">Недостатки Maven</a>
+- <a href="http://maven.apache.org/guides/mini/guide-multiple-modules.html">The Reactor</a>. Snapshots
+- <a href="http://habrahabr.ru/blogs/java/106717/" target="_blank">Недостатки Maven</a>. Другие инструменты сборки.
 - Ресурсы:
   - <a href="http://books.sonatype.com/mvnref-book/reference/index.html">Maven: The Complete Reference</a>
   - <a href="http://habrahabr.ru/post/77333/">Автоматизация сборки проекта</a>
@@ -43,23 +44,35 @@
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFWUxHbXdQc1F3ZHM">4 Add servlet jsp html.patch</a>**
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFZXhDQmdpX1lWOWc">5 Forward to redirect.patch</a>**
 
-- Томкат менеджер: http://localhost:8080/manager
-- Наше приложение: http://localhost:8080/topjava</a>
-- Наш сервлет:     http://localhost:8080/topjava/users
-
-- <a href="http://tomcat.apache.org/">Home Page</a>
+- Перевод проекта на Web.
+- <a href="http://tomcat.apache.org/">Tomcat Home Page</a>
 - <a href="http://java-course.ru/student/book1/servlet/">Сервлеты.</a>
+- Настройка и деплой в Tomcat. Tomcat manager. Remote debug.
+- Запуск Tomcat через tomcat7-maven-plugin. Конфигурирование плагина.
+- Запуск Tomcat из IDEA. Динамическое обновление без передеплоя.
+- Redirect, Forward, Application context, Servlet context
+    - Томкат менеджер: http://localhost:8080/manager
+    - Наше приложение: http://localhost:8080/topjava</a>
+    - Наш сервлет:     http://localhost:8080/topjava/users
+
 - Ресурсы:
   - <a href="http://www.techinfo.net.ru/docs/web/javawebdev.html">Технологии Java для разработки веб-приложений</a>
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFeGJCdDJHbWNyUzg&authuser=0">Логирование.</a>
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFekpncnQ1T3FyTU0">6 Add logging.patch</a>**
 
+- <a href="http://www.youtube.com/watch?v=Lyqc8HicPMM">Видео с TopJava01</a>
 - <a href="http://habrahabr.ru/post/113145/">Java Logging: история кошмара</a>
 - <a href="http://skipy.ru/useful/logging.html">Ведение лога приложения</a>
-- <a href="http://www.slf4j.org/legacy.html">Добавление зависимостей логирования</a> в проект.</a>
+- <a href="http://www.slf4j.org/legacy.html">Добавление зависимостей логирования</a> в проект.
 - <a href="http://logging.apache.org/log4j/2.x/index.html">Log4j</a>, <a href="http://logback.qos.ch/">Logback</a>
-- <a href="http://www.youtube.com/watch?v=Lyqc8HicPMM">Видео с TopJava01</a>
+- Конфигурирование логирования. Создание обертки логирования. Настройка Live Template.
+- Интеграция IDEA с Tomcat, деплой.
+- Тестирование логирования в сервлете. Переменная окружения TOPJAVA_ROOT.
+- Управление логированием по JMX.
+- Контекст приложения. Деплой в Tomcat без IDE. Remote debug.
+
+## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFUWtsVGE0SDhzc2M">Начало 2го урока: разбор вопросов: работа с git, зависимости логгирования, jmx</a>
 
 ## Домашнее задание HW01
  

@@ -1,0 +1,44 @@
+# Занятие 2 онлайн проекта <a href="http://javawebinar.ru/topjava/">Topjava</a>
+*Домашнее задание желательно прислать до вечера среды (18.06).*
+
+## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFfkpsWE1uX19zV19IVHd0bTlDclc5QmhMMm4xa0Npek9DT18tdkwyLTBZdXM">Материалы урока</a>
+
+## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFUWtsVGE0SDhzc2M">Разбор вопросов: работа с git, зависимости логгирования, jmx</a>
+
+## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVDJZVTktQzRYTWc">Библиотека vs Фреймворк. Стандартные библиотеки Apache Commons, Guava</a>
+-  <a href="http://commons.apache.org/">Apache Commons</a>, <a href="https://code.google.com/p/guava-libraries/wiki/GuavaExplained">Guava</a>
+
+## <a href="">Архитектура приложения Spring. Создание каркаса приложения.</a>
+-  <a href="http://docs.myeclipseide.com/index.jsp?topic=%2Forg.skyway.core.doc%2Fdoc%2FME4SReference%2Fscaffolding_blueprints.html">Архитектурные
+            слои приложения в Spring</a>
+-  <a href="https://ru.wikipedia.org/wiki/Инверсия_управления">Инверсия управления.</a><a href="http://image.slidesharecdn.com/springintroduction-130729220359-phpapp01/95/spring-introduction-3-638.jpg?cb=1375162442">DI/
+            Service Locator</a>
+-  <a href="http://habrahabr.ru/post/131993/">IoC, DI, IoC-контейнер — Просто о простом</a>   
+-  Доменная модель приложения
+-  <a href="http://martinfowler.com/eaaCatalog/dataTransferObject.html">Паттерн DTO</a>. <a href="http://stackoverflow.com/questions/1612334/difference-between-dto-vo-pojo-javabeans">Value Object и Data Transfer Object</a>
+-  <a href="http://codehelper.ru/questions/205/new/repository-и-dao-отличия-преимущества-недостатки">Паттерны Repository и DAO</a>
+-  Разбиение на пакеты по слоям и бизнес логике. Создание каркаса приложения.
+-  <a href="http://en.wikipedia.org/wiki/Multilayered_architecture">Паттерн "Слои приложения"</a>
+
+##  <a href="">Обзор  Spring Framework. Spring Context.</a>
+-  <a href="http://en.wikipedia.org/wiki/Spring_Framework">Spring Framework</a>
+-  <a href="http://spring.io/projects">Проекты Spring</a>.
+-  <a href=http://docs.spring.io/spring/docs/current/spring-framework-reference/html/overview.html>Обзор Spring Framework</a>
+-  <a href="http://habrahabr.ru/post/222579/">Spring изнутри. Этапы инициализации контекста.</a>
+-  Ресурсы:
+   -  <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/html/beans.html">Introduction to the Spring IoC container
+       and beans</a>
+   -  <a href="http://springindepth.com/book/in-depth-ioc-constructor-setter-injection.html">Constructor & Setter Injection</a>
+   -  <a href="http://stackoverflow.com/questions/6827752/whats-the-difference-between-component-repository-service-annotations-in">Difference
+       between @Component, @Repository & @Service annotations in Spring</a>
+   -  <a href="http://www.mkyong.com/spring/spring-auto-scanning-components/">Spring Auto Scanning Components</a>
+   -  <a href="http://vk.com/javawebinar?z=video-58538268_169373158%2Fvideos-58538268">Евгений Борисов. Spring, часть 1</a>
+   -  <a href="http://vk.com/javawebinar?z=video-58538268_169373162%2Fvideos-58538268">Евгений Борисов. Spring, часть 2</a>
+   -  <a href="http://www.slideshare.net/taemonz/spring-framework-core-23721778">Презентация Spring framework core</a>
+   -  <a href="https://spring.io/guides">Getting Started</a>
+   -  <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/">Spring Framework Reference Documentation</a>
+   -  <a href="https://github.com/spring-projects">Spring на GitHub</a>
+
+## Домашнее задание HW01
+    Включить в контекст Spring и протестировать через SpringMain классы, относящиеся к UserMeal
+    Сделать API и простейшую реализацию для классов UserMeal (с заглушкой UserMealRepository)

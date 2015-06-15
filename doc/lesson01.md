@@ -3,7 +3,7 @@
 
 **Напоминаю, что каждому моему push в репозиторий соответствует патч в материалах урока, которому надо дать Apply Patch в вашем проекте.**  
 
-## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFfm5hSHEtbmxmN2kxb0NocVRwWl9KanowWXVCVXRZTlhaM09wQUswZkRidTA&authuser=0">Материалы урока</a>
+## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFfm5hSHEtbmxmN2kxb0NocVRwWl9KanowWXVCVXRZTlhaM09wQUswZkRidTA">Материалы урока</a>
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFOGU0a3ZUbFo3Skk">Домашнее задание: реализация getFilteredMealsWithExceeded через Stream API</a> 
 -  <a href="http://www.youtube.com/watch?v=_PDIVhEs6TM">Доступно о Java 8 Lambda</a>

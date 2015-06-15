@@ -10,6 +10,8 @@
 -  <a href="http://commons.apache.org/">Apache Commons</a>, <a href="https://code.google.com/p/guava-libraries/wiki/GuavaExplained">Guava</a>
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFSFR1cDBIamIzQjA">Слои приложения. Создание каркаса приложения.</a>
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFV2RpMko2WnNvM0E">2 App layers.patch</a>**
+
 -  <a href="http://docs.myeclipseide.com/index.jsp?topic=%2Forg.skyway.core.doc%2Fdoc%2FME4SReference%2Fscaffolding_blueprints.html">Архитектурные
             слои приложения в Spring</a>
 -  <a href="https://ru.wikipedia.org/wiki/Инверсия_управления">Инверсия управления.</a><a href="http://image.slidesharecdn.com/springintroduction-130729220359-phpapp01/95/spring-introduction-3-638.jpg?cb=1375162442">DI/
@@ -21,7 +23,12 @@
 -  Разбиение на пакеты по слоям и бизнес логике. Создание каркаса приложения.
 -  <a href="http://en.wikipedia.org/wiki/Multilayered_architecture">Паттерн "Слои приложения"</a>
 
-##  <a href="">Обзор  Spring Framework. Spring Context.</a>
+##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFWXA1b0pnMGlvU0U">Обзор  Spring Framework. Spring Context.</a>
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFRWNEMGVodTlfb2c">3 Add spring dependency.patch</a>**
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFZmd5MkdoX0taeFE">4 Add spring context and main.patch</a>**
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFd09CWVhtQ2hZSUU">5 Add dependency injection.patch</a>**
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFcWh2TDVsLTRDTk0">6 Add annotation processing.patch</a>**
+
 -  <a href="http://en.wikipedia.org/wiki/Spring_Framework">Spring Framework</a>
 -  <a href="http://spring.io/projects">Проекты Spring</a>.
 -  <a href=http://docs.spring.io/spring/docs/current/spring-framework-reference/html/overview.html>Обзор Spring Framework</a>
@@ -41,5 +48,12 @@
    -  <a href="https://github.com/spring-projects">Spring на GitHub</a>
 
 ## Домашнее задание HW01
+    Сделать API и реализацию для классов UserMeal
+       - Учесть, что еда принадлежит какому-то из пользователей.
+       - Нельзя позволять модифицировать/смотреть чужую еду (бросать NotFoundException)
+       - id авторизованного пользователя брать как LoggedUser.id().
+       - Вместо реального сохранения/модификаций сделать заглушку MockUserMealRepositoryImpl
+       
     Включить в контекст Spring и протестировать через SpringMain классы, относящиеся к UserMeal
-    Сделать API и простейшую реализацию для классов UserMeal (с заглушкой UserMealRepository)
+
+-  <a href="https://vk.com/topic-88584431_31486787">Обсуждение ДЗ в группе VK</a>

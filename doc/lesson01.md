@@ -19,7 +19,7 @@
 -  <a href="http://www.youtube.com/watch?v=rJZHerwi8R0">Видео "Приложение Spring Pet Clinic"</a> 
 -  <a href="http://zeroturnaround.com/rebellabs/java-tools-and-technologies-landscape-for-2014/">Обзор популярности инструментов и технологий Java за 2014 г.</a>
 -  Приложение <a href="https://github.com/spring-projects/spring-petclinic">Spring Pet Clinic</a>. 
--  Demo <a href="http://demo-spring-petclinic.cfapps.io">Spring Pet Clinic</a>
+-  Demo <a href="http://petclinic.cloudapp.net/">Spring Pet Clinic</a>
 -  <a href="http://habrahabr.ru/post/232381/">По следам Spring Pet Clinic. Maven/ Spring Context/ Spring Test/ Spring ORM/ Spring Data JPAs</a>
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFZFBuZVRKNU5Kb3c">Maven.</a>

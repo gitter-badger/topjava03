@@ -47,7 +47,7 @@
    -  <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/">Spring Framework Reference Documentation</a>
    -  <a href="https://github.com/spring-projects">Spring на GitHub</a>
 
-## Домашнее задание HW01
+## Домашнее задание HW02
     Сделать API и реализацию для классов UserMeal
        - Учесть, что еда принадлежит какому-то из пользователей.
        - Нельзя позволять модифицировать/смотреть чужую еду (бросать NotFoundException)

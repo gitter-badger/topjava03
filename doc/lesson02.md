@@ -12,7 +12,7 @@
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFSFR1cDBIamIzQjA">Слои приложения. Создание каркаса приложения.</a>
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFV2RpMko2WnNvM0E">2 App layers.patch</a>**
 
--  <a href="http://docs.myeclipseide.com/index.jsp?topic=%2Forg.skyway.core.doc%2Fdoc%2FME4SReference%2Fscaffolding_blueprints.html">Архитектурные
+-  <a href="https://www.genuitec.com/products/myeclipse/learning-center/spring/myeclipse-for-spring-reference-blueprints/">Архитектурные
             слои приложения в Spring</a>
 -  <a href="https://ru.wikipedia.org/wiki/Инверсия_управления">Инверсия управления.</a><a href="http://image.slidesharecdn.com/springintroduction-130729220359-phpapp01/95/spring-introduction-3-638.jpg?cb=1375162442">DI/
             Service Locator</a>

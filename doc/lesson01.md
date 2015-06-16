@@ -76,5 +76,8 @@
 
 ## Домашнее задание HW01
  
-    По аналогии с Users добавить MealServlet и mealList.jsp.
     Попробовать разные деплои в Tomcat, remote и local debug
+    По аналогии с Users добавить MealServlet и mealList.jsp.
+    Добавить в JSP и index.html ссылки друг на друга
+    Задеплоить приложение (war) в Tomcat c applicationContext=topjava и проверить работу ссылок
+    

@@ -9,6 +9,9 @@
 -  Перенос mock реализации в test.
 -  Тестирование через JUnit.
 -  Интеграция Spring и JUnit.
+-  Ресурсы:
+   -  <a href="http://junit.org/">JUnit 4</a>
+   -  <a href="http://habrahabr.ru/post/120101/">Тестирование в Java. JUnit</a>
 
 ##  Базы данных. Spring JDBC
 -  <a href="http://alexander.holbreich.org/2013/03/nosql-or-rdbms/">NoSQL or RDBMS.</a><a

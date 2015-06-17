@@ -1,5 +1,5 @@
 # Занятие 2 онлайн проекта <a href="http://javawebinar.ru/topjava/">Topjava</a>
-*Домашнее задание желательно прислать до вечера среды (18.06).*
+*Домашнее задание желательно прислать до вечера четверга (18.06).*
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFfkpsWE1uX19zV19IVHd0bTlDclc5QmhMMm4xa0Npek9DT18tdkwyLTBZdXM">Материалы урока</a>
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFZXVmYWxDOGFhc1E&authuser=0">1 HW1.patch</a>**

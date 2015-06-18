@@ -56,9 +56,8 @@
        
     Включить в контекст Spring и протестировать через SpringMain классы, относящиеся к UserMeal
     
-    Optional: 
+    Optional (LoggedUser дополнится   public static int getCaloriesPerDay() {return 2000;}): 
        - Добавить в REST API методы для реализации функционала нашего приложения (c фильтрацией и UserMealWithExceed)
        - Перенести вызов и вывод отфильтрованных UserMealWithExceed из UserMealsUtil в SpringMain
-       LoggedUser дополнится   public static int getCaloriesPerDay() {return 2000;}
 
 -  <a href="https://vk.com/topic-88584431_31486787">Обсуждение ДЗ в группе VK</a>

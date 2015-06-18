@@ -59,5 +59,6 @@
     Optional: 
        - Добавить в REST API методы для реализации функционала нашего приложения (c фильтрацией и UserMealWithExceed)
        - Перенести вызов и вывод отфильтрованных UserMealWithExceed из UserMealsUtil в SpringMain
+       LoggedUser дополнится   public static int getCaloriesPerDay() {return 2000;}
 
 -  <a href="https://vk.com/topic-88584431_31486787">Обсуждение ДЗ в группе VK</a>

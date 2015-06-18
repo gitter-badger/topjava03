@@ -55,5 +55,9 @@
        - Вместо реального сохранения/модификаций сделать заглушку MockUserMealRepositoryImpl
        
     Включить в контекст Spring и протестировать через SpringMain классы, относящиеся к UserMeal
+    
+    Дополнительно: 
+       - Сделать REST API для реализации функционала нашего приложения (c фильтрацией и UserMealWithExceed)
+       - Перенести вызов и вывод отфильтрованных UserMealWithExceed из UserMealsUtil в SpringMain
 
 -  <a href="https://vk.com/topic-88584431_31486787">Обсуждение ДЗ в группе VK</a>

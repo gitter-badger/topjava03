@@ -56,7 +56,7 @@
        
     Включить в контекст Spring и протестировать через SpringMain классы, относящиеся к UserMeal
     
-    Дополнительно: 
+    Optional: 
        - Сделать REST API для реализации функционала нашего приложения (c фильтрацией и UserMealWithExceed)
        - Перенести вызов и вывод отфильтрованных UserMealWithExceed из UserMealsUtil в SpringMain
 

@@ -2,6 +2,8 @@
 *Домашнее задание желательно прислать до вечера четверга (25.06).*
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFfllmQWR2cE90UGp5RERHaE95cnVDNmZTRFJCejVhM191NDZlREwzeDdXdmc">Материалы урока</a>
+
+## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFWTdkTEhBNGQxRDA">HW2: делаем API UserMeal</a>
 - **<a href="">1 HW2.patch</a>**
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFOU8wWlpPVE05STA">Коротко о жизненном цикле сонтекста.</a>

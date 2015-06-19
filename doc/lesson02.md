@@ -43,14 +43,6 @@
    -  <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/">Spring Framework Reference Documentation</a>
    -  <a href="https://github.com/spring-projects">Spring на GitHub</a>
   
-## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFOU8wWlpPVE05STA">Коротко о жизненном цикле сонтекста.</a>
-- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFcUxNWEFNT0tDTWM">7 PostConstruct PreDestroy.patch</a>**
--  <a href="http://habrahabr.ru/post/222579/">Spring изнутри. Этапы инициализации контекста.</a>
--  Ресурсы:
-   -  <a href="http://vk.com/javawebinar?z=video-58538268_169373158%2Fvideos-58538268">Евгений Борисов. Spring, часть 1</a>
-   -  <a href="http://vk.com/javawebinar?z=video-58538268_169373162%2Fvideos-58538268">Евгений Борисов. Spring, часть 2</a>
-   -  <a href="http://www.slideshare.net/taemonz/spring-framework-core-23721778">Презентация Spring framework core</a>
-
 ## Домашнее задание HW02
     Сделать API и реализацию для классов UserMeal (с учетом того, что будем сохранять в базе)
        - Учесть, что еда принадлежит какому-то из пользователей.

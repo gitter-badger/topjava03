@@ -66,5 +66,5 @@
 - При реализации UserMealServiceImpl постараться сделать в каждом методе только одни запрос к UserMealRepository 
 - В репозитори также делаем метод фильтрации.
  
-- Метод UserMealsUtil.main() удалить: код перенести в SpringMain и MockUserMealRepositoryImpl
+- Метод UserMealsUtil.main() удалить: код перенести в SpringMain и вернуть mealList в MockUserMealRepositoryImpl
 - Т.к в model находятся только entity, хранимые в DB, UserMealWithExceed перенести в новый пакет to (transfer object, на одном уровне с model, service, web).

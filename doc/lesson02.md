@@ -56,4 +56,4 @@
        - Добавить в REST API методы для реализации функционала нашего приложения (c фильтрацией и UserMealWithExceed)
        - Перенести вызов и вывод отфильтрованных UserMealWithExceed из UserMealsUtil в SpringMain
 
--  <a href="https://vk.com/topic-88584431_31486787">Обсуждение ДЗ в группе VK</a>
+-  <a href="https://vk.com/topic-88584431_31486787">Комментарии к ДЗ в группе VK</a>

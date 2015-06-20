@@ -58,7 +58,7 @@
 
 -  <a href="https://vk.com/topic-88584431_31486787">Комментарии к ДЗ в группе VK</a>
 
-- В UserMealRestController в save/update UserMeal приходят без User/userId
+- В UserMealRestController в save/update UserMeal приходят без User/userId.
   Приложение может прислать все что угодно. Юзер может управлять ТОЛЬКО СВОЕЙ едой, поэтому он определяется на основании        прошедшего авторизацию LoggedUser.id()
 - UserMealWithExceeded используется только для отрисовки таблицы. 
   Возвращаем List<UserMealWithExceed> только для UserMealRestController.getAll и UserMealRestController.getBetween

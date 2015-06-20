@@ -58,11 +58,11 @@
 
 -  <a href="https://vk.com/topic-88584431_31486787">Комментарии к ДЗ в группе VK</a>
 
-    - В UserMealRestController в sava/update UserMeal приходят без User/userId
-      Приложение может прислать все что угодно. Юзер может управлять ТОЛЬКО СВОЕЙ едой, поэтому он определяется на основании        прошедшего авторизацию LoggedUser.id()
-    - При реализации UserMealServiceImpl постараться сделать в каждом методе только одни запрос к UserMealRepository 
-    - Метод UserMealsUtil.main удалить: код перенести в SpringMain и MockUserMealRepositoryImpl
-    - Т.к в model находятся только entity, хранимые в DB, UserMealWithExceed перенести в новый пакет to (transfer object)
-    - В репозитори также делаем метод фильтрации.
-    - UserMealWithExceeded используется только для отрисовки таблицы. 
-      Возвращаем List<UserMealWithExceed> только для UserMealRestController.getAll и UserMealRestController.getBetween
+- В UserMealRestController в sava/update UserMeal приходят без User/userId
+  Приложение может прислать все что угодно. Юзер может управлять ТОЛЬКО СВОЕЙ едой, поэтому он определяется на основании        прошедшего авторизацию LoggedUser.id()
+- При реализации UserMealServiceImpl постараться сделать в каждом методе только одни запрос к UserMealRepository 
+- Метод UserMealsUtil.main удалить: код перенести в SpringMain и MockUserMealRepositoryImpl
+- Т.к в model находятся только entity, хранимые в DB, UserMealWithExceed перенести в новый пакет to (transfer object)
+- В репозитори также делаем метод фильтрации.
+- UserMealWithExceeded используется только для отрисовки таблицы. 
+  Возвращаем List<UserMealWithExceed> только для UserMealRestController.getAll и UserMealRestController.getBetween

@@ -67,4 +67,4 @@
 - В репозитори также делаем метод фильтрации.
  
 - Метод UserMealsUtil.main() удалить: код перенести в SpringMain и MockUserMealRepositoryImpl
-- Т.к в model находятся только entity, хранимые в DB, UserMealWithExceed перенести в новый пакет to (transfer object)
+- Т.к в model находятся только entity, хранимые в DB, UserMealWithExceed перенести в новый пакет to (transfer object, на одном уровне с model, service, web).

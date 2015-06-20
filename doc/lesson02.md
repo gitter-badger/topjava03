@@ -58,7 +58,7 @@
 
 -  <a href="https://vk.com/topic-88584431_31486787">Комментарии к ДЗ в группе VK</a>
 
-- В UserMealRestController в sava/update UserMeal приходят без User/userId
+- В UserMealRestController в save/update UserMeal приходят без User/userId
   Приложение может прислать все что угодно. Юзер может управлять ТОЛЬКО СВОЕЙ едой, поэтому он определяется на основании        прошедшего авторизацию LoggedUser.id()
 - При реализации UserMealServiceImpl постараться сделать в каждом методе только одни запрос к UserMealRepository 
 - Метод UserMealsUtil.main удалить: код перенести в SpringMain и MockUserMealRepositoryImpl

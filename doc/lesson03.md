@@ -4,7 +4,7 @@
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFfllmQWR2cE90UGp5RERHaE95cnVDNmZTRFJCejVhM191NDZlREwzeDdXdmc">Материалы урока</a>
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFWTdkTEhBNGQxRDA">HW2: делаем API UserMeal</a>
-- **<a href="">1 HW2.patch</a>**
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFbHZaNnB6X05GbG8">1 HW2.patch</a>**
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFOU8wWlpPVE05STA">Коротко о жизненном цикле Spring контекста.</a>
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFcUxNWEFNT0tDTWM">2 PostConstruct PreDestroy.patch</a>**
@@ -42,21 +42,22 @@
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFZnJKampTSFJmMGM">6 Add db props.patch</a>**
 -  <a href="http://habrahabr.ru/company/JetBrains/blog/204064/">Настройка Database в IDEA</a> и запуск SQL.
 
-## <a href="">Подключение Spring Jdbc.</a>
-
+## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFMGNWUXhaVzdlU0k">Инициализация базы. Имплементация UserRepository через Spring Jdbc Template.</a>
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFZ185clpYTm94eG8">7 populate and init db.patch</a>**
 -  Скрипты инициализация базы
--  Подключение Spring Jdbc.
--  Конфигурирование DataSource. property-placeholder.
--  <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/html/jdbc.html#jdbc-initializing-datasource-xml">Инициализация
-            базы при старте приложения</a>
--  JdbcTemplate. Имплементация JdbcUserRepository
--  Подготовка тестовых данных для UserServiceTest. Добавление TestUser и ModelMatcher
--  Тестирование UserService. Конфигурирование логирования в тестах.
--  Инициализация базы из java. ScriptUtil -> ResourceDatabasePopulator.
-            <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#resources">Абстракция
-                Resource</a>
--  Починка mock: подмена контекста при тестировании
 
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFQkotMXZOLUY4QTQ">8 impl JdbcUserRepository.patch</a>**
+-  Подключение <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/html/jdbc.html">Spring Jdbc</a>.
+-  Конфигурирование DataSource. <a href="http://www.mkyong.com/spring/spring-propertyplaceholderconfigurer-example/">property-placeholder</a>.
+-  Имплементация UserRepository через Spring Jdbc Template.
+
+## <a href="">Подготовка тестовых данных и тестирование UserService.</a>
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFZ185clpYTm94eG8">9 test UserService.patch</a>**
+-  Подготовка тестовых данных в UserServiceTest. Добавление TestUser и ModelMatcher
+-  Тестирование UserService.
+-  Ресурсы:
+   - <a href="http://www.youtube.com/watch?v=YzOTZTt-PR0">Николай Алименков — Босиком по граблям Hibernate</a>
+   
 ## Домашнее задание HW03
      * Дополнить скрипты создания и инициализации базы
 
@@ -64,14 +65,16 @@
        src\main\resources\db\populateDB.sql 
      
        таблицой MEALS.
-     
-     * Реализовать через Spring JDBC Template JdbcUserMealRepositoryImpl
-     
-     * Сделать тестовые данные MealTestData, АНОЛОГИЧНЫЕ пропопулированным в таблице 
-     
-     * Используя spring-test протестировать сервис UserMealService (UserMealServiceTest)  
-       (из UserMealServiceImpl нажать Ctrl+Shift+T и выбрать JUnit4)
-     
-     Все задания делаются по аналогии с уже имеющейся реализацией для User.
 
+     * Реализовать через Spring JDBC Template JdbcUserMealRepositoryImpl (сделать каждый метод за один SQL запрос)
+       Т.к postgres драйвер не понимает LocalDateTime, использовать преобразования: 
+                                                       Timestamp.valueOf(ldt) / timestamp.toLocalDateTime()
+     
+     * Сделать тестовые данные MealTestData, АНОЛОГИЧНЫЕ пропопулированным в populateDB.sql. 
+       Тестовый класс-обертка к UserMeal не требуется, сравниваем данные через MATCHER (toString)
+
+     
+     * Запустить скрипт инициализации initDB.sql на базу и протестировать сервис UserMealService.  
+       UserMealServiceTest создать из UserMealService (Ctrl+Shift+T и выбрать JUnit4) и реализовать тесты.
+     
 -  <a href="https://vk.com/topic-88584431_31508716">Обсуждение ДЗ в группе VK</a>

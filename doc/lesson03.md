@@ -25,7 +25,7 @@
 -  Интеграция Spring и JUnit.
 -  <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#testing">Spring Testing</a>
 
-## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVlNYczhnSU9JdXc">Базы данных. Spring JDBC</a>
+## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVlNYczhnSU9JdXc">Базы данных. Обзор NoSQL и Java persistence solution без ORM.</a>
 -  <a href="https://ru.wikipedia.org/wiki/PostgreSQL">PostgreSQL</a>.
 -  <a href="http://alexander.holbreich.org/2013/03/nosql-or-rdbms/">NoSQL or RDBMS.</a><a
                 href="http://habrahabr.ru/post/77909/">Обзор NoSQL систем</a>. <a href="http://blog.nahurst.com/visual-guide-to-nosql-systems">CAP</a>
@@ -38,10 +38,12 @@
   - <a href="http://habrahabr.ru/post/103021/">Реляционные базы</a>
   - <a href="http://ru.wikipedia.org/wiki/Java_Database_Connectivity">JDBC</a>.
                 
-## <a href="">Базы данных. Spring JDBC</a>
-- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFelRnQlo1cWVYZDA">5 Add postgresql dependency.patch</a>**
-
+## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFQWtHYU1qTDlMWVE">Настройка Database в IDEA.</a>
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFZnJKampTSFJmMGM">6 Add db props.patch</a>**
 -  <a href="http://habrahabr.ru/company/JetBrains/blog/204064/">Настройка Database в IDEA</a> и запуск SQL.
+
+## <a href="">Подключение Spring Jdbc.</a>
+
 -  Скрипты инициализация базы
 -  Подключение Spring Jdbc.
 -  Конфигурирование DataSource. property-placeholder.

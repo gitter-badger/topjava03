@@ -6,7 +6,7 @@
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFWTdkTEhBNGQxRDA">HW2: делаем API UserMeal</a>
 - **<a href="">1 HW2.patch</a>**
 
-## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFOU8wWlpPVE05STA">Коротко о жизненном цикле сонтекста.</a>
+## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFOU8wWlpPVE05STA">Коротко о жизненном цикле Spring контекста.</a>
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFcUxNWEFNT0tDTWM">2 PostConstruct PreDestroy.patch</a>**
 -  <a href="http://habrahabr.ru/post/222579/">Spring изнутри. Этапы инициализации контекста.</a>
 -  Ресурсы:
@@ -14,22 +14,33 @@
    -  <a href="http://vk.com/javawebinar?z=video-58538268_169373162%2Fvideos-58538268">Евгений Борисов. Spring, часть 2</a>
    -  <a href="http://www.slideshare.net/taemonz/spring-framework-core-23721778">Презентация Spring framework core</a>
 
-##  Тестирование. Spring Test
+##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFODlkU1B0QnNnSGs">Тестирование через JUnit.</a>
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFanBONjJPMzVkZzA">3 Add Junit.patch</a>**
 -  Перенос mock реализации в test.
--  Тестирование через JUnit.
--  Интеграция Spring и JUnit.
--  Ресурсы:
-   -  <a href="http://junit.org/">JUnit 4</a>
-   -  <a href="http://habrahabr.ru/post/120101/">Тестирование в Java. JUnit</a>
+-  <a href="http://junit.org/">JUnit 4</a>
+-  <a href="http://habrahabr.ru/post/120101/">Тестирование в Java. JUnit</a>
 
-##  Базы данных. Spring JDBC
+## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFai1veG9qaFZlZ2s">Spring Test</a>
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFZ0h1UnB5YXVZUDQ">4 Add spring test.patch</a>**
+-  Интеграция Spring и JUnit.
+-  <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#testing">Spring Testing</a>
+
+## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVlNYczhnSU9JdXc">Базы данных. Spring JDBC</a>
+-  <a href="https://ru.wikipedia.org/wiki/PostgreSQL">PostgreSQL</a>.
 -  <a href="http://alexander.holbreich.org/2013/03/nosql-or-rdbms/">NoSQL or RDBMS.</a><a
                 href="http://habrahabr.ru/post/77909/">Обзор NoSQL систем</a>. <a href="http://blog.nahurst.com/visual-guide-to-nosql-systems">CAP</a>
-        
 -  Обзор Java persistence solution без ORM: <a
                 href="http://commons.apache.org/proper/commons-dbutils/">commons-dbutils</a>,
             <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/html/jdbc.html">Spring
                 JdbcTemplate</a>, <a href="http://en.wikipedia.org/wiki/MyBatis">MyBatis</a>, <a href="http://www.jdbi.org/">JDBI</a>
+- Ресурсы:
+  - <a href="https://ru.wikipedia.org/wiki/Реляционная_СУБД">Реляционная СУБД</a>
+  - <a href="http://habrahabr.ru/post/103021/">Реляционные базы</a>
+  - <a href="http://ru.wikipedia.org/wiki/Java_Database_Connectivity">JDBC</a>.
+                
+## <a href="">Базы данных. Spring JDBC</a>
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFelRnQlo1cWVYZDA">5 Add postgresql dependency.patch</a>**
+
 -  <a href="http://habrahabr.ru/company/JetBrains/blog/204064/">Настройка Database в IDEA</a> и запуск SQL.
 -  Скрипты инициализация базы
 -  Подключение Spring Jdbc.

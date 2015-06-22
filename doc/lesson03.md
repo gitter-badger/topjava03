@@ -39,6 +39,7 @@
   - <a href="http://ru.wikipedia.org/wiki/Java_Database_Connectivity">JDBC</a>.
                 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFQWtHYU1qTDlMWVE">Настройка Database в IDEA.</a>
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFelRnQlo1cWVYZDA">5 Add postgresql dependency.patch</a>**
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFZnJKampTSFJmMGM">6 Add db props.patch</a>**
 -  <a href="http://habrahabr.ru/company/JetBrains/blog/204064/">Настройка Database в IDEA</a> и запуск SQL.
 
@@ -51,7 +52,7 @@
 -  Конфигурирование DataSource. <a href="http://www.mkyong.com/spring/spring-propertyplaceholderconfigurer-example/">property-placeholder</a>.
 -  Имплементация UserRepository через Spring Jdbc Template.
 
-## <a href="">Подготовка тестовых данных и тестирование UserService.</a>
+## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFWXlqQW1pcl9fUlE">Подготовка тестовых данных и тестирование UserService.</a>
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFZ185clpYTm94eG8">9 test UserService.patch</a>**
 -  Подготовка тестовых данных в UserServiceTest. Добавление TestUser и ModelMatcher
 -  Тестирование UserService.

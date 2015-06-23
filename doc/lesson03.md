@@ -66,9 +66,11 @@
        src\main\resources\db\initDB.sql
        src\main\resources\db\populateDB.sql таблицой MEALS.
 
-     * Реализовать через Spring JDBC Template JdbcUserMealRepositoryImpl (сделать каждый метод за один SQL запрос)
-       Т.к postgres драйвер не понимает LocalDateTime, использовать преобразования: 
-                                                       Timestamp.valueOf(ldt) / timestamp.toLocalDateTime()
+     * Реализовать через Spring JDBC Template JdbcUserMealRepositoryImpl 
+        - сделать каждый метод за один SQL запрос
+        - user в результат вставлять НЕ надо (для UI и REST это лишние данные, для деталей юзера есть свое User API) 
+        - т.к postgres драйвер не понимает LocalDateTime, использовать преобразования: 
+                                         Timestamp.valueOf(ldt) / timestamp.toLocalDateTime()
      
      * Сделать тестовые данные MealTestData, АНОЛОГИЧНЫЕ пропопулированным в populateDB.sql. 
        Тестовый класс-обертка к UserMeal не требуется, сравниваем данные через MATCHER (toString)

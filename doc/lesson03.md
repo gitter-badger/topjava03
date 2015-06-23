@@ -68,7 +68,7 @@
 
      * Реализовать через Spring JDBC Template JdbcUserMealRepositoryImpl 
         - сделать каждый метод за один SQL запрос
-        - user в результат вставлять НЕ надо (для UI и REST это лишние данные, для деталей юзера есть свое User API) 
+        - user в результаты вставлять НЕ надо (для UI и REST это лишние данные, для деталей юзера есть свое User API) 
         - т.к postgres драйвер не понимает LocalDateTime, использовать преобразования: 
                                          Timestamp.valueOf(ldt) / timestamp.toLocalDateTime()
      

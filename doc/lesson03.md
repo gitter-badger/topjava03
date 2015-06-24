@@ -54,7 +54,7 @@
 -  Имплементация UserRepository через Spring Jdbc Template.
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFWXlqQW1pcl9fUlE">Подготовка тестовых данных и тестирование UserService.</a>
-- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFZ185clpYTm94eG8">9 test UserService.patch</a>**
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFOUl1Y082VVFTVWs">9 test UserService.patch</a>**
 -  Подготовка тестовых данных в UserServiceTest. Добавление TestUser и ModelMatcher
 -  Тестирование UserService.
 -  Ресурсы:

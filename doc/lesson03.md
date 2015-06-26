@@ -59,6 +59,9 @@
 -  Тестирование UserService.
 -  Ресурсы:
    - <a href="http://www.youtube.com/watch?v=YzOTZTt-PR0">Николай Алименков — Босиком по граблям Hibernate</a>
+
+## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVmZaSm9UMktXUnc">Логирование тестов.</a>
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFSFoydXZiVndYdGs">10 test logging.patch</a>**
    
 ## Домашнее задание HW03
      * Дополнить скрипты создания и инициализации базы

@@ -36,7 +36,8 @@
 - Ресурсы:
   - <a href="https://ru.wikipedia.org/wiki/Реляционная_СУБД">Реляционная СУБД</a>
   - <a href="http://habrahabr.ru/post/103021/">Реляционные базы</a>
-  - <a href="http://ru.wikipedia.org/wiki/Java_Database_Connectivity">JDBC</a>.
+  - <a href="http://ru.wikipedia.org/wiki/Java_Database_Connectivity">JDBC</a>
+  - <a href="https://www.youtube.com/playlist?list=PLIU76b8Cjem5qdMQLXiIwGLTLyUHkTqi2">Обущающее видео по JDBC</a>
                 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFQWtHYU1qTDlMWVE">Настройка Database в IDEA.</a>
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFelRnQlo1cWVYZDA">5 Add postgresql dependency.patch</a>**

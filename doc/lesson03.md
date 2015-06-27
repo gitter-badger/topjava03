@@ -15,7 +15,7 @@
    -  <a href="http://www.slideshare.net/taemonz/spring-framework-core-23721778">Презентация Spring framework core</a>
 
 ##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFODlkU1B0QnNnSGs">Тестирование через JUnit.</a>
-- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFanBONjJPMzVkZzA">3 Add Junit.patch</a>**
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFanBONjJPMzVkZzA">3 Add Junit.patch</a>** (из за глюков накатки патча перед его применением создайте каталог test, из корня проекта путь \src\test)
 -  Перенос mock реализации в test.
 -  <a href="http://junit.org/">JUnit 4</a>
 -  <a href="http://habrahabr.ru/post/120101/">Тестирование в Java. JUnit</a>
@@ -36,7 +36,8 @@
 - Ресурсы:
   - <a href="https://ru.wikipedia.org/wiki/Реляционная_СУБД">Реляционная СУБД</a>
   - <a href="http://habrahabr.ru/post/103021/">Реляционные базы</a>
-  - <a href="http://ru.wikipedia.org/wiki/Java_Database_Connectivity">JDBC</a>.
+  - <a href="http://ru.wikipedia.org/wiki/Java_Database_Connectivity">JDBC</a>
+  - <a href="https://www.youtube.com/playlist?list=PLIU76b8Cjem5qdMQLXiIwGLTLyUHkTqi2">Обущающее видео по JDBC</a>
                 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFQWtHYU1qTDlMWVE">Настройка Database в IDEA.</a>
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFelRnQlo1cWVYZDA">5 Add postgresql dependency.patch</a>**
@@ -49,16 +50,19 @@
 
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFQkotMXZOLUY4QTQ">8 impl JdbcUserRepository.patch</a>**
 -  Подключение <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/html/jdbc.html">Spring Jdbc</a>.
--  Конфигурирование DataSource. <a href="http://www.mkyong.com/spring/spring-propertyplaceholderconfigurer-example/">property-placeholder</a>.
-   (Проверьте, что в контекст Spring включены оба файла конфигурации: https://drive.google.com/open?id=0B9Ye2auQ_NsFYThYOFNHbnNzd0E) 
+-  Конфигурирование DataSource. <a href="http://www.mkyong.com/spring/spring-propertyplaceholderconfigurer-example/">property-placeholder</a>
+   (проверьте, что в контекст Spring проекта включены оба файла конфигурации: https://drive.google.com/open?id=0B9Ye2auQ_NsFYThYOFNHbnNzd0E).
 -  Имплементация UserRepository через Spring Jdbc Template.
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFWXlqQW1pcl9fUlE">Подготовка тестовых данных и тестирование UserService.</a>
-- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFZ185clpYTm94eG8">9 test UserService.patch</a>**
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFOUl1Y082VVFTVWs">9 test UserService.patch</a>**
 -  Подготовка тестовых данных в UserServiceTest. Добавление TestUser и ModelMatcher
 -  Тестирование UserService.
 -  Ресурсы:
    - <a href="http://www.youtube.com/watch?v=YzOTZTt-PR0">Николай Алименков — Босиком по граблям Hibernate</a>
+
+## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVmZaSm9UMktXUnc">Логирование тестов.</a>
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFSFoydXZiVndYdGs">10 test logging.patch</a>**
    
 ## Домашнее задание HW03
      * Дополнить скрипты создания и инициализации базы
@@ -66,9 +70,11 @@
        src\main\resources\db\initDB.sql
        src\main\resources\db\populateDB.sql таблицой MEALS.
 
-     * Реализовать через Spring JDBC Template JdbcUserMealRepositoryImpl (сделать каждый метод за один SQL запрос)
-       Т.к postgres драйвер не понимает LocalDateTime, использовать преобразования: 
-                                                       Timestamp.valueOf(ldt) / timestamp.toLocalDateTime()
+     * Реализовать через Spring JDBC Template JdbcUserMealRepositoryImpl 
+        - сделать каждый метод за один SQL запрос
+        - user в результаты вставлять НЕ надо (для UI и REST это лишние данные, для деталей юзера есть свое User API) 
+        - т.к postgres драйвер не понимает LocalDateTime, использовать преобразования: 
+                                         Timestamp.valueOf(ldt) / timestamp.toLocalDateTime()
      
      * Сделать тестовые данные MealTestData, АНОЛОГИЧНЫЕ пропопулированным в populateDB.sql. 
        Тестовый класс-обертка к UserMeal не требуется, сравниваем данные через MATCHER (toString)

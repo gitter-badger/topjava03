@@ -5,22 +5,22 @@
 
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFWTdkTEhBNGQxRDA">HW3: JdbcUserMealRepositoryImpl + UserMealServiceTest</a>
-- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVmJ6bE1kZmIzUFU">1 HW3</a>**
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVmJ6bE1kZmIzUFU">1 HW3.patch</a>**
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFUlZCZDZDWUx2czA">Повторяем Lambda и Stream</a>
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFU0Z2R190eDllYmM">Spring: инициализация и популирование DB</a>
-- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFNGd5SG9uMndaZVk">2 init and populate db</a>**
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFNGd5SG9uMndaZVk">2 init and populate db.patch</a>**
 
 -  <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/html/jdbc.html#jdbc-initializing-datasource-xml">Инициализация базы при старте приложения</a>
 -  Инициализация базы из java: DbPopulator. <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#integration-testing-annotations-spring">Spring Testing Annotations</a>
 -  <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#resources">Абстракция Resource</a>
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFNTNWV04weDBGSmc">Починка mock: подмена контекста при тестировании</a>
-- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFZzFtakhXMW9ma2c">3 create mock test ctx</a>**
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFZzFtakhXMW9ma2c">3 create mock test ctx.patch</a>**
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVWZYcHoyUF9qX2M">ORM. Hibernate. JPA.</a>
-- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFSHdWRVhkNDcwdzA">4 make entity add jpa</a>**
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFSHdWRVhkNDcwdzA">4 make entity add jpa.patch</a>**
 
 -  <a href="http://ru.wikipedia.org/wiki/ORM">ORM</a>. 
 -  <a href="http://en.wikibooks.org/wiki/Java_Persistence/Mapping">Mapping</a>. Описания модели Hibernate (hbm.xml/annotation)
@@ -40,7 +40,7 @@
 -  <a href="http://www.objectdb.com/java/jpa/query/criteria">JPA Criteria API</a>. <a href="http://www.querydsl.com/">Unified Queries for Java</a>
 -  <a href="https://weblogs.java.net/blog/montanajava/archive/2014/06/17/using-java-8-datetime-classes-jpa">Java 8 Time API Converter</a>
 
-- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFRUxqS2kteUF2R3M">5 jpa impl transaction</a>**
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFRUxqS2kteUF2R3M">5 jpa impl transaction.patch</a>**
 -  <a href="http://ru.wikipedia.org/wiki/Транзакция_(информатика)">Транзакция. ACID. Уровни изоляции транзакций.</a> 
 -  Подключаем транзакции. <a href="http://www.tutorialspoint.com/spring/spring_transaction_management.htm">Spring Transaction Management</a>
 -  <a href="https://jira.spring.io/browse/DATAJPA-601">readOnly и Propagation.SUPPORTS</a>
@@ -59,7 +59,7 @@
    - <a href="https://ru.wikipedia.org/wiki/MVCC">MVCC</a>
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFSTJEQ1Rvd3Jvc2c">Добавляем поддержку HSQLDB</a>
-- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFTkM4MXVITThTdXc">6 hsqldb support</a>**
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFTkM4MXVITThTdXc">6 hsqldb support.patch</a>**
 
 ## Домашнее задание HW03
      Добавить в модель LocalDateTimeConverter: 

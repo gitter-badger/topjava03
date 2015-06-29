@@ -69,6 +69,6 @@
      Имплементировать и протестировать JpaUserMealRepositoryImpl 
 
      Опционально:
-     Сделать тесты JpaUserMealRepositoryImpl через @Rule: http://alexruiz.developerblogs.com/?p=1530
+     Сделать тесты UserMealServiceTest через @Rule: http://alexruiz.developerblogs.com/?p=1530
      
 -  <a href="https://vk.com/topic-88584431_31547091">Обсуждение ДЗ в группе VK</a>

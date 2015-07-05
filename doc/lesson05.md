@@ -29,7 +29,7 @@
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFYVdyMFYxRUR6bWM">Spring Data JPA</a>
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFNTloSEVtUktrT1U">3 spring data jpa.patch</a>**
 
--  <h3><a class="anchor" id="datajpa"></a><a href="http://projects.spring.io/spring-data-jpa/">Spring Data JPA</a></h3>
+-  <a class="anchor" id="datajpa"></a><a href="http://projects.spring.io/spring-data-jpa/">Spring Data JPA</a>
 -  Замена AbstractDAO: <a href="http://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.repositories">JPA Repositories</a>
 -  Разрешение зависимостей: <a href="http://howtodoinjava.com/2014/02/18/maven-bom-bill-of-materials-dependency/">Maven BOM [Bill Of Materials] Dependency</a>
 -  <a href="http://habrahabr.ru/post/232381/">Делегирование. (Spring Data JPA)</a>

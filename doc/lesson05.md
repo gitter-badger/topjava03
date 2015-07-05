@@ -1,5 +1,4 @@
 # Занятие 5 онлайн проекта <a href="http://javawebinar.ru/topjava/">Topjava</a>
-*Домашнее задание желательно прислать до вечера четверга (09.07).*
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFfmctT3oyNW1qaVhDb2p0bGpyTFVlaUJ2VVpOdVgtWF9KTUFBMWFaR2xVYVE">Материалы урока</a>
 

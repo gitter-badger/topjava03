@@ -5,7 +5,7 @@
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFUVZobXRzNWFzUW8">HW5: Spring Profiles. Spring Data JPA</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFZFZhZGdrMnBYN00">1 HW5.patch</a>**
 (ДЗ, добавил профили в SpringMain, в User добавил и закоментировал List<UserMeal> userMeals- можете раскоментировать и проверить что по get все достается,
-поправил баг в JPA реализации- при merge надо возвращать результат мержа, это сказывается, только если мы работаем в транзакции с возвращенным результатом, в SimpleJpaRepository правильно)
+поправил баг в JPA реализации- при merge надо возвращать результат мержа. Это сказывается только если мы работаем в транзакции с возвращенным результатом, в SimpleJpaRepository правильно)
 
 -  <a href="http://stackoverflow.com/questions/3669883/hibernate-where-do-insertable-false-updatable-false-belong-in-composite-pr#answer-9442483">FK как примитив в Entity</a>
 -  <a href="http://javarticles.com/2013/12/spring-profiles.html">Spring Profiles</a>

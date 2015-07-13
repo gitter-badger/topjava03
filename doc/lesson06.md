@@ -31,7 +31,7 @@
 -  Получение контекста Spring в веб-контейнере
 -  Имплементируем UserController. <a href="http://design-pattern.ru/patterns/mvc.html">Паттерн MVC</a>
 -  Ресурсы:
-   -  <a href=https://docs.oracle.com/javaee/6/tutorial/doc/bnafi.html">Servlet Lifecycle</a>
+   -  <a href="https://docs.oracle.com/javaee/6/tutorial/doc/bnafi.html">Servlet Lifecycle</a>
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFN3k0ZVk1MnF5TjQ">JPS, JSTL, internationalization</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFejFZWjhER0diTk0">4 jsp jstl i18n.patch</a>**

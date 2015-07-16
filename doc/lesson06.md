@@ -71,5 +71,6 @@
 ## Домашнее задание HW06
     Починить тесты Jdbc (разделить тесты для jdbc и jpa/datajpa)
     Имплементировать UserMealController с выводом таблицы meals в mealList.jsp
+    Дату-время вывести в формате yyyy-MM-dd HH:mm
           
 -  <a href="https://vk.com/topic-88584431_31644662">Обсуждение ДЗ в группе VK</a>

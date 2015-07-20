@@ -45,7 +45,7 @@
 -  Проверка UTF-8: http://localhost:8080/topjava/rest/profile/text
 -  <a href="http://forum.spring.io/forum/spring-projects/web/74209-responsebody-and-utf-8">ResponseBody and UTF-8</a>
 
-## Домашнее задание HW06
+## Домашнее задание HW07
     Сделать тест для UserMealController
     Добавить ResourceControllerTest на получение style.css
 

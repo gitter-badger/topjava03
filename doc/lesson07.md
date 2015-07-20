@@ -32,7 +32,7 @@
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFR2JwcTJ4STdRSE0">6 jackson hibernate.patch</a>**
 -  Сериализации hibernate lazy-loading с помощью <a href="https://github.com/FasterXML/jackson-datatype-hibernate">jackson-datatype-hibernate</a>
 
--  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFZ2p1Q0xISzVIbTg">7 test with matcher</a>**
+-  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFZ2p1Q0xISzVIbTg">7 test with matcher.patch</a>**
 -  <a href="http://habrahabr.ru/post/259055/">Тестируем Spring Rest контроллеры</a>, Проверка JSON-содержимого ответа через собственный ResultMatcher
 
         <li>Настройка сериализации JSON. Тестирование через <a href="http://www.soapui.org/">SoapUi</a>.</li>

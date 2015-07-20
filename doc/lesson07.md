@@ -50,9 +50,11 @@
     Добавить ResourceControllerTest на получение style.css
 
     Реализовать AbstractUserMealController / UserMealRestController
-    LocalDateTime передавать даты в формате ISO_LOCAL_DATE_TIME (например '2011-12-03T10:15:30'), java.time.format.DateTimeFormatter#ISO_DATE_TIME
+    LocalDateTime передавать даты в формате ISO_LOCAL_DATE_TIME (например '2011-12-03T10:15:30'), 
+    
     Для преобразования в LocalDateTime можно 
-        1. принимать в параметрах String и конвертить самому, используя ru.javawebinar.topjava.util.TimeUtil
+        1. принимать в параметрах String и конвертить самому, используя ru.javawebinar.topjava.util.TimeUtil,
+                                                            formatter java.time.format.DateTimeFormatter#ISO_DATE_TIME
                       
         2. правильнее: написать StringToLocalDateTimeConverter конвертор, см. пример:
         http://docs.spring.io/spring/docs/current/spring-framework-reference/html/validation.html#core-convert-Spring-config 

@@ -59,6 +59,7 @@
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFSTJEQ1Rvd3Jvc2c">Добавляем поддержку HSQLDB</a>
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFTkM4MXVITThTdXc">6 hsqldb support.patch</a>**
+
 >  ВНИМАНИЕ: патч меняет postgres.properties
   
 ## Домашнее задание HW4

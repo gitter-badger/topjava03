@@ -18,7 +18,7 @@
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVGJ1MkhnNFlrUDg">4 rest controller.patch</a>**
 > переименовал 
 > AdminUserRestController -> AdminRestController и 
-> UserRestController -> ProfileRestController)
+> UserRestController -> ProfileRestController
 
 -  <a href="https://ru.wikipedia.org/wiki/JSON">JSON (JavaScript Object Notation</a>
 -  <a href="https://spring.io/understanding/rest">Understanding REST</a>

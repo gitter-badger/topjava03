@@ -4,15 +4,15 @@
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFUVZobXRzNWFzUW8">HW5: Spring Profiles. Spring Data JPA</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFZFZhZGdrMnBYN00">1 HW5.patch</a>**
-(ДЗ, добавил профили в SpringMain, в User добавил и закоментировал List<UserMeal> userMeals- можете раскоментировать и проверить что по get все достается,
-поправил баг в JPA реализации- при merge надо возвращать результат мержа. Это сказывается только если мы работаем в транзакции с возвращенным результатом, в SimpleJpaRepository правильно)
+> ДЗ, добавил профили в SpringMain, в User добавил и закоментировал List<UserMeal> userMeals- можете раскоментировать и  проверить что по get все достается,
+> поправил баг в JPA реализации- при merge надо возвращать результат мержа. Это сказывается только если мы работаем в  транзакции с возвращенным результатом, в SimpleJpaRepository правильно)
 
 -  <a href="http://stackoverflow.com/questions/3669883/hibernate-where-do-insertable-false-updatable-false-belong-in-composite-pr#answer-9442483">FK как примитив в Entity</a>
 -  <a href="http://javarticles.com/2013/12/spring-profiles.html">Spring Profiles</a>
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFeTV0SUFfblk5NE0">Кэш Hibernate</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFQXBJQ1JRRHFwR0E">2 hibernate cache.patch</a>**
-   (JpaUtil не определен в профиле jdbc: тесты JdbcUserServiceTest к починке в ДЗ) 
+>  JpaUtil не определен в профиле jdbc: тесты JdbcUserServiceTest к починке в ДЗ
 
 -  <a href="http://habrahabr.ru/post/135176/">Уровни кэширования Hibernate</a>
 -  <a href="http://habrahabr.ru/post/136375/">Hibernate Cache. Практика</a>
@@ -42,7 +42,8 @@
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFTnRoeUlOWXpSMWs">Динамическое изменение профиля при запуске. Конфигурирование Tomcat через maven plugin и jndi</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFM3M1Skt0T3BsWUU">5 tomcat pool jndi.patch</a>**
 
--  Динамическое изменение профиля Spring при запуске (-Dspring.profiles.active="datajpa,postgres")
+-  Динамическое изменение профиля Spring при запуске 
+    -Dspring.profiles.active="datajpa,postgres")
 -  Конфигурирование пула коннектов в Tomcat и jndi-lookup.
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFQThUX2VyQXNiTHM">Spring Web MVC</a>

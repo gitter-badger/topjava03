@@ -17,9 +17,7 @@
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFWE5oSmJFZGZBRlE">REST контроллеры</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVGJ1MkhnNFlrUDg">4 rest controller.patch</a>**
 > переименовал 
->
 > AdminUserRestController -> AdminRestController и 
->
 > UserRestController -> ProfileRestController)
 
 -  <a href="https://ru.wikipedia.org/wiki/JSON">JSON (JavaScript Object Notation</a>
@@ -33,7 +31,7 @@
 -  https://github.com/FasterXML/jackson-databind
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFNWEyVGJIU2JMTFE">jackson-datatype-hibernate. Тестирование через матчеры.</a>
-> Устройство матчеров может показаться сложным. Как это работает можно разбираться, только если самому на их основе что-то имплементировать. Мы используем Spring MVC и Hibernate не заботясь о том, насколько они сложные в реализации. Использование матчеров тоже достаточно просто.
+> Устройство матчеров может показаться сложным. Как это работает можно разбираться, только если самому на их основе что-то имплементировать. Мы используем Spring MVC и Hibernate не заботясь о том, насколько они сложные в реализации. Использование матчеров также достаточно просто.
     
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFR2JwcTJ4STdRSE0">6 jackson hibernate.patch</a>**
 -  Сериализации hibernate lazy-loading с помощью <a href="https://github.com/FasterXML/jackson-datatype-hibernate">jackson-datatype-hibernate</a>

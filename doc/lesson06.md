@@ -43,7 +43,7 @@
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFM3M1Skt0T3BsWUU">5 tomcat pool jndi.patch</a>**
 
 -  Динамическое изменение профиля Spring при запуске 
->  -Dspring.profiles.active="datajpa,postgres")
+>  -Dspring.profiles.active="datajpa,postgres"
 -  Конфигурирование пула коннектов в Tomcat и jndi-lookup.
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFQThUX2VyQXNiTHM">Spring Web MVC</a>

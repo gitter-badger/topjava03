@@ -20,7 +20,7 @@
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVWZYcHoyUF9qX2M">ORM. Hibernate. JPA.</a>
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFSHdWRVhkNDcwdzA">4 make entity add jpa.patch</a>**
-  ВНИМАНИЕ: патч меняет postgres.properties, в котором у вас свои креденшелы к базе. Сохраните свой файл отдельно, сделайте revert postgres.properties, накатите патч и верните свои креденшелы, в случае проблем с мержем. 
+>  ВНИМАНИЕ: патч меняет postgres.properties, в котором у вас свои креденшелы к базе. Сохраните свой файл отдельно, сделайте revert postgres.properties, накатите патч и верните свои креденшелы, в случае проблем с мержем. 
    
 -  <a href="http://ru.wikipedia.org/wiki/ORM">ORM</a>. 
 -  <a href="http://en.wikibooks.org/wiki/Java_Persistence/Mapping">Mapping</a>. Описания модели Hibernate (hbm.xml/annotation)
@@ -59,7 +59,7 @@
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFSTJEQ1Rvd3Jvc2c">Добавляем поддержку HSQLDB</a>
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFTkM4MXVITThTdXc">6 hsqldb support.patch</a>**
-  ВНИМАНИЕ: патч меняет postgres.properties
+>  ВНИМАНИЕ: патч меняет postgres.properties
   
 ## Домашнее задание HW4
      Добавить в модель LocalDateTimeConverter: 

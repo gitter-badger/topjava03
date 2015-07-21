@@ -70,6 +70,7 @@
 
 ## Домашнее задание HW06
     Починить тесты Jdbc (разделить тесты для jdbc и jpa/datajpa)
+    Починить mock тесты
     Имплементировать UserMealController с выводом таблицы meals в mealList.jsp
 
 Optional

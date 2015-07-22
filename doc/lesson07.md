@@ -66,5 +66,7 @@
     Загрузить проект soap-ui проект (\config\Topjava-soapui-project.xml) и протестировать UserMealRestController 
 
     Сделать тесты UserMealRestControllerTest
-
+    
+    Проблему с UTF-8 можно решить через CharacterEncodingFilter(UTF-8, forceEncoding=true), добавив его как в web.xml, так и в тесты (MockMvcBuilders).
+    
 -  <a href="https://vk.com/topic-88584431_31673314">Обсуждение ДЗ в группе VK</a>

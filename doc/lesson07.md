@@ -67,6 +67,7 @@
 
     Сделать тесты UserMealRestControllerTest
     
-    Проблему с UTF-8 можно решить через CharacterEncodingFilter(UTF-8, forceEncoding=true), добавив его как в web.xml, так и в тесты (MockMvcBuilders).
+    Проблему с UTF-8 можно решить через org.springframework.web.filter.CharacterEncodingFilter 
+    (encoding = UTF-8, forceEncoding=true), добавив его как в web.xml, так и в тесты (MockMvcBuilders).
     
 -  <a href="https://vk.com/topic-88584431_31673314">Обсуждение ДЗ в группе VK</a>

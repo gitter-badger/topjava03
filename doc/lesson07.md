@@ -33,16 +33,16 @@
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFNWEyVGJIU2JMTFE">jackson-datatype-hibernate. Тестирование через матчеры.</a>
 > Устройство матчеров может показаться сложным. Как это работает можно разбираться, только если самому на их основе что-то имплементировать. Мы используем Spring MVC и Hibernate не заботясь о том, насколько они сложные в реализации. Использование матчеров также достаточно просто.
     
--  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFR2JwcTJ4STdRSE0">6 jackson hibernate.patch</a>**
+-  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFSngtSUNLcGZoUHM">6 jackson hibernate.patch</a>**
 -  Сериализации hibernate lazy-loading с помощью <a href="https://github.com/FasterXML/jackson-datatype-hibernate">jackson-datatype-hibernate</a>
 
--  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFZ2p1Q0xISzVIbTg">7 test with matcher.patch</a>**
+-  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFR3gwMkZtaWFiaXc">7 test with matcher.patch</a>**
 -  <a href="http://habrahabr.ru/post/259055/">Тестируем Spring Rest контроллеры</a>, Проверка JSON-содержимого ответа через собственный ResultMatcher
 - Настройка сериализации JSON. Тестирование через <a href="http://www.soapui.org/">SoapUi</a>.
 - Решение проблемы с UTF-8 в StringHttpMessageConverter
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVXNmOUdBbUxxWVU">Тестирование через SoapUi. UTF-8</a>
--  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFX1VjVVdITVV2YXc">8 soapui utf_8 converter.patch</a>**
+-  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFNUxMT2hGRWdLb2M">8 soapui utf_8 converter.patch</a>**
 
 -  <a href="http://www.soapui.org/">SoapUi</a>, открыть проект config\Topjava-soapui-project.xml 
 -  Проверка UTF-8: http://localhost:8080/topjava/rest/profile/text

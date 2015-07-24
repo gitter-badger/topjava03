@@ -55,14 +55,8 @@
     Реализовать AbstractUserMealController / UserMealRestController
     LocalDateTime передавать даты в формате ISO_LOCAL_DATE_TIME (например '2011-12-03T10:15:30'), 
     
-    Для преобразования в LocalDateTime можно 
-        1. принимать в параметрах String и конвертить самому, используя ru.javawebinar.topjava.util.TimeUtil,
-                                                            formatter java.time.format.DateTimeFormatter#ISO_DATE_TIME
+    Для преобразования в LocalDateTime можно принимать в параметрах String и конвертить самому, используя ru.javawebinar.topjava.util.TimeUtil,formatter java.time.format.DateTimeFormatter#ISO_DATE_TIME
                       
-        2. правильнее: написать StringToLocalDateTimeConverter конвертор, см. пример:
-        http://docs.spring.io/spring/docs/current/spring-framework-reference/html/validation.html#core-convert-Spring-config 
-    
-    
     Загрузить проект soap-ui проект (\config\Topjava-soapui-project.xml) и протестировать UserMealRestController 
 
     Сделать тесты UserMealRestControllerTest
@@ -71,3 +65,6 @@
     (encoding = UTF-8, forceEncoding=true), добавив его как в web.xml, так и в тесты (MockMvcBuilders).
     
 -  <a href="https://vk.com/topic-88584431_31673314">Обсуждение ДЗ в группе VK</a>
+Optional
+    Написать для LocalDateTime конвертор, см. пример:
+    http://docs.spring.io/spring/docs/current/spring-framework-reference/html/validation.html#core-convert-Spring-config 

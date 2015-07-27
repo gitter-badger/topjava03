@@ -32,19 +32,19 @@
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFbDhfdURJbDBQV28">4 ajax jquery.patch</a>**
 
 -  <a href="https://ru.wikipedia.org/wiki/AJAX">AJAX</a>. <a href="https://ru.wikipedia.org/wiki/JQuery">jQuery</a>
--  Подключение <a href="http://jquery.com/">jQuery</a>.
 -  Событие $(document).ready. Запросы ajax. Обратный вызов (Callback).
 -  Редактирование таблицы на основе <a href="http://getbootstrap.com/javascript/#modals">модального окна Bootstrap</a>. 
 -  Реализация удаления/добавления пользователей.
 -  Ресурсы:
+    -  <a href="http://habrahabr.ru/post/38208/">jQuery для начинающих</a>.
+    -  <a href="http://habrahabr.ru/post/42426/">jQuery для начинающих. AJAX</a>.
+    -  <a href="http://habrahabr.ru/post/51717/">jQuery для начинающих. Селекторы</a>.
     -  <a href="http://api.jquery.com/">jQuery API</a>
     -  <a href="http://getbootstrap.com/javascript/">Bootstrap JavaScript</a>
     -  <a href="http://legacy.datatables.net/ref">DataTables 1.9.4 API</a>
 
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFSkhldmMxSUtJdnc">5 notification.patch</a>**
 -  Обработка ajaxError. <a href="http://ned.im/noty/">jQuery notification</a>
--  <a href="http://ruseller.com/adds/adds2561/example/">jQuery notification примеры</a>
-
 
 ##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFRVkzcFMwc0hrYmM">Добавление Spring Security</a>  
 >  Правка к видео: путь в intercept-url должен быть полный - pattern="/rest/admin/**"

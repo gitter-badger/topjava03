@@ -36,9 +36,9 @@
 -  Редактирование таблицы на основе <a href="http://getbootstrap.com/javascript/#modals">модального окна Bootstrap</a>. 
 -  Реализация удаления/добавления пользователей.
 -  Ресурсы:
-    -  <a href="http://habrahabr.ru/post/38208/">jQuery для начинающих</a>.
-    -  <a href="http://habrahabr.ru/post/42426/">jQuery для начинающих. AJAX</a>.
-    -  <a href="http://habrahabr.ru/post/51717/">jQuery для начинающих. Селекторы</a>.
+    -  <a href="http://anton.shevchuk.name/jquery/">jQuery для всех</a>.
+    -  <a href="http://anton.shevchuk.name/javascript/jquery-for-beginners-ajax/">jQuery для начинающих. AJAX</a>.
+    -  <a href="http://anton.shevchuk.name/javascript/jquery-for-beginners-selectors/">jQuery для начинающих. Селекторы</a>.
     -  <a href="http://api.jquery.com/">jQuery API</a>
     -  <a href="http://getbootstrap.com/javascript/">Bootstrap JavaScript</a>
     -  <a href="http://legacy.datatables.net/ref">DataTables 1.9.4 API</a>

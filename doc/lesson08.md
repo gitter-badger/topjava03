@@ -6,7 +6,7 @@
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFWDRoLWYxVGEzZDQ">1 HW7.patch</a>**
 
 
-##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVUFIeHVZdHNRUU0">WebJars. Dandelion bundles</a>
+##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFZ2lmZjRsdFdIYlE">WebJars. Dandelion bundles</a>
 >  Проект http://dandelion.github.io/components/core/ мигрировал на версию 1.xx, которая несовместима с 0.10.1
 >  При этом документацию к старой версии удалили. Поэтому в будующем планирую или мигрировать на новую версию Dandelion,
 >  или, лучший вариант, мигрировать на angular.js.      

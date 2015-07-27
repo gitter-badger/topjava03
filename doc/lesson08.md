@@ -7,10 +7,11 @@
 
 
 ##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVUFIeHVZdHNRUU0">WebJars. Dandelion bundles</a>
--  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFdk1VaGR0SlVEYXM">2 webjars dandelion bundles.patch</a>**
 >  Проект http://dandelion.github.io/components/core/ мигрировал на версию 1.xx, которая несовместима с 0.10.1
 >  При этом документацию к старой версии удалили. Поэтому в будующем планирую или мигрировать на новую версию Dandelion,
 >  или, лучший вариант, мигрировать на angular.js.      
+
+-  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFdk1VaGR0SlVEYXM">2 webjars dandelion bundles.patch</a>**
 
 -  Подключение веб ресурсов. <a href="http://www.webjars.org/">WebJars</a>.
 -  Подключаем <a href="http://dandelion.github.io">Dandelion</a>.

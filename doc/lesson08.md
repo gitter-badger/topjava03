@@ -8,12 +8,12 @@
 
 ##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVUFIeHVZdHNRUU0">WebJars. Dandelion bundles</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFdk1VaGR0SlVEYXM">2 webjars dandelion bundles.patch</a>**
-
--  Подключение веб ресурсов. <a href="http://www.webjars.org/">WebJars</a>.
--  Подключаем <a href="http://dandelion.github.io">Dandelion</a>.
 >  Проект http://dandelion.github.io/components/core/ мигрировал на версию 1.xx, которая несовместима с 0.10.1
 >  При этом документацию к старой версии удалили. Поэтому в будующем планирую или мигрировать на новую версию Dandelion,
 >  или, лучший вариант, мигрировать на angular.js.      
+
+-  Подключение веб ресурсов. <a href="http://www.webjars.org/">WebJars</a>.
+-  Подключаем <a href="http://dandelion.github.io">Dandelion</a>.
 
 ##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFalh3bjhwZjJnZDg">Bootstrap. Datatables.</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFcF9LbnItaTJvM0k">3 bootstrap datatables.patch</a>**
@@ -64,12 +64,11 @@
 -  Конфигурируем security context для ресурсов и REST
 -  Тестируем Security REST через SoapUI
 
-## Домашнее задание HW8
+## Домашнее задание HW08
     Перевести mealList на dandelion (mealList.jsp, UserMealAjaxController, локализация)
     Реализовать удаление/добавление записи еды.
 
 Optional.
-   
     Реализовать enable/disable User через checkbox в userList.jsp (достаточно реализовать только в DataJpa)
     
 -  <a href="https://vk.com/topic-88584431_31711302">Обсуждение ДЗ в группе VK</a>
